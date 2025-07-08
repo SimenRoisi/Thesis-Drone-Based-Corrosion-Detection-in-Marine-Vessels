@@ -15,5 +15,5 @@ Key features:
 
 - **Dataset**: Included 556 annotated images of corrosion with preprocessing for standardization and augmentation to improve model performance.
 - **Models**: UNet architectures with MobileNetV3 and ResNet encoders were tested for accuracy and computational efficiency.
-- **Results**: MobileNetV3-Large achieved the best balance between detection accuracy (79% Corrosion Detection Rate) and computational efficiency, making it ideal for drone-based applications.
+- **Results**: ResNet18 achieved the best balance between detection accuracy (88% Corrosion Detection Rate) and computational efficiency, making it ideal for drone-based applications.
 - **Visualization**: Outputs corrosion detections as persistent 3D voxel maps, viewable in ROS RViz.
